@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="capywww official web">
+    <meta name="author" content="SirOrire Raymond">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"href="favicon.ico">
+    <title>capywhiteofficial.com</title>
+    
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        body {
+            font-size: 120%;
+        }
+        @font-face {
+            font-family: real;
+            src: url(route.otf);
+        }
+        body {
+            background-color: rgb(250, 212, 163);
+            margin: 0;
+        }
+        h1 {
+            font-family: real;
+            color: rgb(59, 59, 59);
+            text-shadow: 0 0 16px rgba(255, 0, 0, 0.596);
+        }
+        p {
+            margin-top: 05px;
+            text-align: center;
+            color: brown;
+        }
+        .box{
+            position: relative;
+            text-align: center;
+            margin-left: 50%;
+            overflow-x: auto;
+            width: 1000px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2en;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        nav {
+            float: left;
+            background-color: black;
+        }
+        nav ul {
+            list-style-type: none;
+            z-index: 1;
+        } 
+        a:link {
+            color: #4e4e4e;
+            text-decoration: none;
+            display: inline-block;
+        }
+        ul {
+            overflow-x: hidden;
+            display: flex;
+            margin: 0%;
+            width: 100%;
+            background-color: brown;
+            padding: 0%;
+            position: fixed;
+            top: 0;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .hox {
+            float: left;
+            width: 16.66%;
+            padding: 50px;
+        }
+
+
+        li a {
+            padding: 14px 16px;
+            color: lightsalmon;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: ;
+        }
+        li a:hover {
+            background-color: black;
+        }
+        .active {
+            background-color: tomato;
+            color: brown;
+        }
+        .tablet {
+            border: 3px solid black;
+            background: linear-gradient(to top,rgb(54, 14, 14) 10%, brown, rgba(255, 99, 71, 0.692));
+            background: transparent;
+            padding: 50px;
+            padding-bottom: 90px;
+            margin-right: 15px;
+            float: left;
+        }
+        .tablet:hover {
+            box-shadow: 8px 8px 8px 8px black;
+            padding: 40px;
+            padding-bottom: 80;
+        }
+
+        .width2 {
+            width: 850px;
+            height: auto;
+        }
+
+        @media screen and (max-width:800px) {
+            .hox {
+                width: 100%;
+            }
+            .width {
+                width: 300px;
+                height: auto;
+            }
+            .width2 {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">The HQ</a></li>
+                <li><a href="#c1">video</a></li>
+                <li><a href="#c2">album</a> </li>
+                <li><a href="#c3">Single</a></li>
+                <li><a href="#c4">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1 style="text-align: right; font-size: 6.25em; margin-left: 50px;">Capywhite</h1>
+    <div class="center"><img src="image/star.png" style="align-items: center; width: 300px;" class="center"></div> <br>
+    <h1 style="text-align: center; font-size: 3.125em;" id="c1">Videos</h1>
+    <div class="box">
+        <div class="tablet width">
+            <video controls muted autoplay class="width2">
+            <source src="video/IMG_2108.mp4" type="video/mp4">
+            <source src="video/IMG_2108.ogg" type="video/ogg">
+        </video><p style="color: brown;">Love Me</p>
+        </div>
+        <div class="tablet width"> 
+            <video controls muted autoplay class="width2">
+                <source src="video/IMG_run.mp4" type="video/mp4">
+                <source src="video/IMG_run.ogg" type="video/ogg">
+            </video><p style="color: brown;">Faraway</p>
+        </div>
+        <div class="tablet width">
+            <video controls muted autoplay class="width2">
+                <source src="video/Telephone.MP4" type="video/mp4">
+                <source src="video/Telephone.ogg" type="video/ogg">
+            </video><p style="color: brown;">Telephone</p>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; font-size: 3.125em;" id="c2">Albums</h1>
+    <div class="box">
+        <div class="tablet">
+            <a href="https://share.amuse.io/album/capywhite-the-renegade-playlist"><img src="image/the renegade play.jpeg" class="width" alt="The Renegade Playlist" width="850px"><p>The Renegade Playlist Ep</p> </a>
+            <a href="TRPL.html" style="color: red;">Download Here</a>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/album/capywhite-beauty-of-chaos"><img src="image/The Beauty Of Chaos.jpeg" class="width" alt="Beauty Of Chaos" width="850px0px"><p>Beauty Of Chaos</p> </a>
+            <a href="BOC.html" style="color: red;">Download Here</a>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; font-size: 3.125em;" id="c3">Single</h1>
+    <div class="box">
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-og"><img src="image/OG.jpeg" class="width width2" alt="OG" ><p>OG</p> </a>
+            <p style="text-align: center;"><a href="OG.html" style="text-align: center;">additional link</a></p>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-the-love-story-popo-futu"><img src="image/pupufutu.jpeg" class="width width2" alt="The Love Story" ><p>The Love Story </p> </a>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-telephone"><img src="image/telephone.jpeg" class="width width2" alt="Telephone"><p>Telephone</p> </a>
+            <p style="text-align: center;"><a href="telephone.html" style="text-align: center;">additional link</a></p>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-spark"><img src="image/spark.jpeg" class="width width2" alt="Spark"><p>Spark</p> </a>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-love-me"><img src="image/love me.jpeg" class="width width" alt="Love me " height="850px"><p>Love me</p> </a>
+            <p style="text-align: center;"><a href="loveme.html" style="text-align: center;">additional link</a></p>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-colors-of-the-rainbow"><img src="image/colors of the rainb.jpeg" class="width width2" alt="Colors Of The Rainbow"><p>Colors Of The rainbow</p> </a>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-let-go"><img src="image/let gp.jpeg" class="width width2" alt="Let Go"><p>Let Go</p> </a>
+            <p style="text-align: center;"><a href="letgo.html" style="text-align: center;">additional link</a></p>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-hope"><img src="image/hope.png" class="width width2" alt="Hope"><p>Hope</p> </a>
+        </div>
+        <div class="tablet">
+            <a href="https://share.amuse.io/track/capywhite-ghetto"><img src="image/ghetto.png" class="width width2" alt="Ghetto" height="850px"><p>Ghetto</p> </a>
+            <p style="text-align: center;"><a href="Ghetto.html" style="text-align: center;">additional link</a></p>
+        </div>
+    </div>
+    <div class="clearfix" id="c4">
+        <div class="hox" style="background-color: brown;">
+            <a href="https://wa.me/message/W7XW63UCBG27F1" style="color: rgb(167, 124, 17);">
+                <img src="whatsapp.png" width="30px" alt="whatsapp">
+                whatsapp
+            </a>
+        </div>
+        <div class="hox" style="background-color: rgb(177, 43, 43);">
+            <a href="https://twitter.com/Strrse1"  style="color: rgb(167, 126, 24);">
+                <img src="twitter.png" width="30px" alt="twitter">
+                Telegram
+            </a>
+        </div>
+        <div class="hox" style="background-color: rgb(204, 52, 52);">
+            <a href="https://t.me/starrisetv" style="color: rgb(189, 145, 36);">
+                <img src="telegram__2.png" width="30px" alt="telegram">
+                twiter
+            </a>
+        </div>
+        <div class="hox" style="background-color: rgb(223, 56, 56);">
+            <a href="https://instagram.com/stone_the_begining?igshid=YmMyMTA2M2Y=" style="color: rgb(194, 153, 48);">
+                <img src="instagram.png" width="30px" alt="whatsapp">
+                instagram
+            </a>
+        </div>
+        <div class="hox" style="background-color: rgb(255, 45, 45);">
+            <a href="https://www.facebook.com/raymond.orire?mibextid=LQQJ4d"  style="color: rgb(172, 144, 73);">
+                <img src="facebook.png" width="30px" alt="twitter">
+                Facebook
+            </a>
+        </div>
+        <div class="hox" style="background-color: rgb(255, 56, 56);">
+            <a href="mailto:orireraymon#gmail.com" style="color: rgb(167, 148, 100);">
+                <img src="gmail.PNG" width="30px" alt="telegram">
+                Gmail
+            </a>
+        </div>
+    </div>
+</body>
+</html>
